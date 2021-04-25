@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class MyBinaryTreeTest {
     //UC1 Ability to create BST by adding 56, 30 and 70
+    //UC2 Added all the numbers
     @Test
     public void given3NumbersWhenAddedToBSTShouldReturnSize3(){
         MyBinaryTree<Integer> myBinaryTree = new MyBinaryTree<>();
